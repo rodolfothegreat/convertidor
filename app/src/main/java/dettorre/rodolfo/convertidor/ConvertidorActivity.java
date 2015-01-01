@@ -1,6 +1,7 @@
 package dettorre.rodolfo.convertidor;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -11,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.math.BigDecimal;
 
@@ -53,7 +55,7 @@ implements OnClickListener , OnItemSelectedListener{
     	
     	String[] WeightUnits = new String[] {"gram (g)", "milligram (mg)", "kilogram (kg)", "tonne", 
     				"pound", "ounce", "stone"};
-    	double[] WeightValues = new double[] {1, 0.001, 1000, 1000000, 453.592, 28.3495, 6350.29};
+    	double[] WeightValues = new double[] {1, 0.001, 1000, 1000000, 453.59237, 28.349523125, 6350.29318};
 
     	String[] AreaUnits = new String[] {"square kilomenter (Km2)", "square meter (m2)", "square centimeter (cm2)",
     				"square millimeter (mm2)", "hectare (ha)", "acre", "square foot (ft2)", "square inch (in2)",
@@ -100,6 +102,8 @@ implements OnClickListener , OnItemSelectedListener{
     		fDistanceAdapter.add(sItem);
     	}
 
+
+
     	for( int i1 = 0; i1 < fVolumeConverter.getItems().length; i1++) {
     		String sItem = fVolumeConverter.getItems()[i1];
     		fVolumeAdapter.add(sItem);
@@ -121,7 +125,9 @@ implements OnClickListener , OnItemSelectedListener{
     	fConvertyList[2] = fDistanceConverter;
     	fConvertyList[3] = fVolumeConverter;
     	fConvertyList[4] = fAreaConverter;
-   	
+
+        fspinnerFrom.setOnItemSelectedListener(this);
+        fspinnerTo.setOnItemSelectedListener(this);
     }	
 
     
@@ -201,7 +207,18 @@ implements OnClickListener , OnItemSelectedListener{
 	public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
 			long arg3) {
 
-		String NewUnitType = fspinnerUnitType.getSelectedItem().toString();
+        if (arg0.getChildCount() != 0){
+        //    ((TextView) arg0.getChildAt(0)).setTextColor(Color.BLUE);
+            ((TextView) arg0.getChildAt(0)).setTextSize(20);
+        }
+
+
+        if (arg0 != fspinnerUnitType) {
+            return;
+
+        }
+
+        String NewUnitType = fspinnerUnitType.getSelectedItem().toString();
 		if (NewUnitType.equalsIgnoreCase("weight")) {
 	    	fspinnerFrom.setAdapter(fWeightAdapter);
 	    	fspinnerTo.setAdapter(fWeightAdapter);		
