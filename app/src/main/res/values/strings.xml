@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ConvertidorActivity!</string>
+    <color name="mainbackgound">#ffcccccc</color>
+    <string name="app_name">Convertidor</string>
+    <color name="TextColor">#000</color>
+    <string name="category">Category</string>
+    <string name="gogo">pepe</string>
+</resources>
