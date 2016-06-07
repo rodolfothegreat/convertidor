@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainbackgound"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+<TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableRow4">
+
+        <Spinner android:id="@+id/spinnerUnitType" android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_span="2" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceLarge" ></Spinner>
+    </TableRow>
+
+    <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/TextColor" android:id="@+id/textView2" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="From:"
+            android:singleLine="true"
+            android:layout_marginRight="3dp"></TextView>
+        <Spinner android:layout_width="fill_parent" android:layout_weight=".90" android:layout_height="wrap_content" android:id="@+id/spinnerFrom"
+            android:gravity="fill_horizontal" android:textAppearance="?android:attr/textAppearanceLarge" ></Spinner>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/TextColor" android:id="@+id/textView3" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="To:" android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginRight="3dp"></TextView>
+        <Spinner android:layout_width="fill_parent" android:layout_weight="0.90" android:layout_height="wrap_content" android:id="@+id/spinnerTo"
+            android:layout_column="1"
+            android:gravity="fill_horizontal" android:textAppearance="?android:attr/textAppearanceLarge" ></Spinner>
+    </TableRow>
+</TableLayout>
+<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/relativeLayout1">
+
+    <EditText android:layout_height="wrap_content"  android:layout_width="fill_parent" android:layout_weight="0.90" android:id="@+id/editValue" android:inputType="numberDecimal|numberSigned"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/btnConvert"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/btnConvert">
+        <requestFocus></requestFocus>
+    </EditText>
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:text="Convert"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_margin="5dp" />
+
+
+
+</RelativeLayout>
+<TextView android:textColor="@color/TextColor" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="TextView" android:id="@+id/textViewResult"></TextView>
+
+</LinearLayout>
+<!-- From: file:/C:/jee/adt/convertidor/app/src/main/res/layout/main.xml -->
