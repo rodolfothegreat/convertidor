@@ -9,6 +9,8 @@ ADDED from C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:2:1-19:12
 		INJECTED from C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml
 	android:versionName
 		ADDED from C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:5:7-32
+		INJECTED from C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml
 	android:versionCode
 		ADDED from C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:4:7-30
 		INJECTED from C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml

@@ -80,18 +80,18 @@ implements OnClickListener , OnItemSelectedListener{
     		fTemperatureAdapter.add(sItem);
     	}
     	
-    	fWeightAdapter = new ArrayAdapter <String> (this, android.R.layout.simple_spinner_item );
-    	fWeightAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+    	fWeightAdapter = new ArrayAdapter <String> (this, android.R.layout.simple_spinner_item, WeightUnits );
+    //	fWeightAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
-    	fDistanceAdapter = new ArrayAdapter <String> (this, android.R.layout.simple_spinner_item );
-    	fDistanceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+    	fDistanceAdapter = new ArrayAdapter <String> (this, android.R.layout.simple_spinner_item, DistanceUnits );
+    //	fDistanceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
-    	fVolumeAdapter = new ArrayAdapter <String> (this, android.R.layout.simple_spinner_item );
-    	fVolumeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+    	fVolumeAdapter = new ArrayAdapter <String> (this, android.R.layout.simple_spinner_item, VolumeUnits );
+    //	fVolumeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
     	
-    	fAreaAdapter = new ArrayAdapter <String> (this, android.R.layout.simple_spinner_item );
-    	fAreaAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-    	
+    	fAreaAdapter = new ArrayAdapter <String> (this, android.R.layout.simple_spinner_item, AreaUnits );
+    //	fAreaAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+    	/*
     	for( int i1 = 0; i1 < fWeightConverter.getItems().length; i1++) {
     		String sItem = fWeightConverter.getItems()[i1];
     		fWeightAdapter.add(sItem);
@@ -113,7 +113,7 @@ implements OnClickListener , OnItemSelectedListener{
     		String sItem = fAreaConverter.getItems()[i1];
     		fAreaAdapter.add(sItem);
     	}
-    	
+    	*/
     	fspinnerFrom = (Spinner) findViewById(R.id.spinnerFrom);
     	fspinnerTo = (Spinner) findViewById(R.id.spinnerTo);
     	fspinnerFrom.setAdapter(fWeightAdapter);

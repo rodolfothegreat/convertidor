@@ -69,4 +69,3 @@
 <TextView android:textColor="@color/TextColor" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="TextView" android:id="@+id/textViewResult"></TextView>
 
 </LinearLayout>
-<!-- From: file:/C:/jee/adt/convertidor/app/src/main/res/layout/main.xml -->
