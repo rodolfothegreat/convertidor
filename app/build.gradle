@@ -2,9 +2,10 @@ apply plugin: 'com.android.application'
 buildscript {
     repositories {
         mavenCentral()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.3'
+        classpath 'com.android.tools.build:gradle:3.2.1'
     }
 }
 allprojects {
@@ -21,12 +22,12 @@ android {
             storePassword 'paolo@311'
         }
     }
-    compileSdkVersion 17
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 27
+    buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "dettorre.rodolfo.convertidor"
-        minSdkVersion 4
-        targetSdkVersion 4
+        minSdkVersion 19
+        targetSdkVersion 27
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_5
             targetCompatibility JavaVersion.VERSION_1_5
@@ -39,7 +40,16 @@ android {
             signingConfig signingConfigs.config
         }
     }
+    productFlavors {
+    }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    google()        //---> Add this
 }
 
 dependencies {
+    compile 'com.android.support:appcompat-v7:27.0.0'
 }

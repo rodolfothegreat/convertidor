@@ -3,6 +3,7 @@ package dettorre.rodolfo.convertidor;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
+//import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -16,7 +17,9 @@ import android.widget.Toast;
 
 import java.math.BigDecimal;
 
-public class ConvertidorActivity extends Activity 
+
+
+public class ConvertidorActivity extends Activity
 implements OnClickListener , OnItemSelectedListener{
     /** Called when the activity is first created. */
    

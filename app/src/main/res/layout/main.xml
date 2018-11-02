@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/mainbackgound"
@@ -9,21 +10,43 @@
 <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
     <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableRow4">
 
-        <Spinner android:id="@+id/spinnerUnitType" android:layout_width="fill_parent" android:layout_height="wrap_content"
-            android:layout_span="2" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceLarge" ></Spinner>
+        <Spinner
+            android:id="@+id/spinnerUnitType"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"></Spinner>
     </TableRow>
 
     <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <TextView android:textColor="@color/TextColor" android:id="@+id/textView2" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="From:"
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:paddingLeft="10dp"
             android:singleLine="true"
-            android:layout_marginRight="3dp"></TextView>
+            android:text="From:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/TextColor"></TextView>
         <Spinner android:layout_width="fill_parent" android:layout_weight=".90" android:layout_height="wrap_content" android:id="@+id/spinnerFrom"
             android:gravity="fill_horizontal" android:textAppearance="?android:attr/textAppearanceLarge" ></Spinner>
     </TableRow>
     <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <TextView android:textColor="@color/TextColor" android:id="@+id/textView3" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="To:" android:layout_height="wrap_content"
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_column="0"
-            android:layout_marginRight="3dp"></TextView>
+            android:layout_marginRight="3dp"
+            android:paddingLeft="10dp"
+            android:text="To:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/TextColor"></TextView>
         <Spinner android:layout_width="fill_parent" android:layout_weight="0.90" android:layout_height="wrap_content" android:id="@+id/spinnerTo"
             android:layout_column="1"
             android:gravity="fill_horizontal" android:textAppearance="?android:attr/textAppearanceLarge" ></Spinner>
@@ -31,14 +54,21 @@
 </TableLayout>
 <RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/relativeLayout1">
 
-    <EditText android:layout_height="wrap_content"  android:layout_width="fill_parent" android:layout_weight="0.90" android:id="@+id/editValue" android:inputType="numberDecimal|numberSigned"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
+    <EditText
+        android:id="@+id/editValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btnConvert"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:layout_toLeftOf="@+id/btnConvert">
+        android:layout_toLeftOf="@+id/btnConvert"
+        android:layout_weight="0.90"
+        android:inputType="numberDecimal|numberSigned"
+        android:paddingLeft="10dp">
+
         <requestFocus></requestFocus>
     </EditText>
 
@@ -66,6 +96,14 @@
 
 
 </RelativeLayout>
-<TextView android:textColor="@color/TextColor" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="TextView" android:id="@+id/textViewResult"></TextView>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/TextColor"></TextView>
 
 </LinearLayout>
