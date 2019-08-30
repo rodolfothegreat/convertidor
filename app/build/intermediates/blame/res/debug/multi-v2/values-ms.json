@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\jee\\adt\\convertidor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
+            "outputFile": "C:\\Users\\rodol\\OneDrive\\github\\convertidor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rodolfo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\0d2c9f44080b3be81a4c88b7575fdfbf\\res\\values-ms\\values-ms.xml",
+                    "source": "C:\\Users\\rodol\\.gradle\\caches\\transforms-2\\files-2.1\\504140572292dd72006cd1c92e5ef597\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,321,429,516,620,731,809,888,968,1080,1189,1286,1395,1498,1605,1764,1865",
+                        "endColumns": "110,104,107,86,103,110,77,78,79,111,108,96,108,102,106,158,100,79",
+                        "endOffsets": "211,316,424,511,615,726,804,883,963,1075,1184,1281,1390,1493,1600,1759,1860,1940"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rodol\\.gradle\\caches\\transforms-2\\files-2.1\\5a8f0b9b44f180fb011fc8293c706035\\res\\values-ms\\values-ms.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1945",
                         "endColumns": "100",
                         "endOffsets": "2041"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Rodolfo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\002765f3553601e0963b2fa1a3a4297d\\res\\values-ms\\values-ms.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,321,429,516,620,731,809,888,968,1080,1189,1286,1395,1498,1605,1764,1865",
-                        "endColumns": "110,104,107,86,103,110,77,78,79,111,108,96,108,102,106,158,100,79",
-                        "endOffsets": "211,316,424,511,615,726,804,883,963,1075,1184,1281,1390,1493,1600,1759,1860,1940"
                     }
                 }
             ]

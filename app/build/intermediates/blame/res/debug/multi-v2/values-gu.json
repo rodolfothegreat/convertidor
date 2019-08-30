@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\jee\\adt\\convertidor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gu\\values-gu.xml",
+            "outputFile": "C:\\Users\\rodol\\OneDrive\\github\\convertidor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gu\\values-gu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rodolfo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\002765f3553601e0963b2fa1a3a4297d\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\Users\\rodol\\.gradle\\caches\\transforms-2\\files-2.1\\504140572292dd72006cd1c92e5ef597\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Rodolfo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\0d2c9f44080b3be81a4c88b7575fdfbf\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\Users\\rodol\\.gradle\\caches\\transforms-2\\files-2.1\\5a8f0b9b44f180fb011fc8293c706035\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

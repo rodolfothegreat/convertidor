@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\jee\\adt\\convertidor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
+            "outputFile": "C:\\Users\\rodol\\OneDrive\\github\\convertidor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rodolfo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\0d2c9f44080b3be81a4c88b7575fdfbf\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\rodol\\.gradle\\caches\\transforms-2\\files-2.1\\504140572292dd72006cd1c92e5ef597\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,207,306,412,498,601,714,792,870,949,1049,1149,1245,1348,1447,1554,1707,1803",
+                        "endColumns": "101,98,105,85,102,112,77,77,78,99,99,95,102,98,106,152,95,78",
+                        "endOffsets": "202,301,407,493,596,709,787,865,944,1044,1144,1240,1343,1442,1549,1702,1798,1877"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rodol\\.gradle\\caches\\transforms-2\\files-2.1\\5a8f0b9b44f180fb011fc8293c706035\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1882",
                         "endColumns": "100",
                         "endOffsets": "1978"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Rodolfo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\002765f3553601e0963b2fa1a3a4297d\\res\\values-am\\values-am.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,207,306,412,498,601,714,792,870,949,1049,1149,1245,1348,1447,1554,1707,1803",
-                        "endColumns": "101,98,105,85,102,112,77,77,78,99,99,95,102,98,106,152,95,78",
-                        "endOffsets": "202,301,407,493,596,709,787,865,944,1044,1144,1240,1343,1442,1549,1702,1798,1877"
                     }
                 }
             ]

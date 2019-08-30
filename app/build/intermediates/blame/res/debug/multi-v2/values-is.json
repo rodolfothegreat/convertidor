@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\jee\\adt\\convertidor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is\\values-is.xml",
+            "outputFile": "C:\\Users\\rodol\\OneDrive\\github\\convertidor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is\\values-is.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rodolfo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\002765f3553601e0963b2fa1a3a4297d\\res\\values-is\\values-is.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,205,302,414,499,600,714,794,874,955,1065,1173,1271,1380,1479,1582,1737,1835",
-                        "endColumns": "99,96,111,84,100,113,79,79,80,109,107,97,108,98,102,154,97,80",
-                        "endOffsets": "200,297,409,494,595,709,789,869,950,1060,1168,1266,1375,1474,1577,1732,1830,1911"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Rodolfo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\0d2c9f44080b3be81a4c88b7575fdfbf\\res\\values-is\\values-is.xml",
+                    "source": "C:\\Users\\rodol\\.gradle\\caches\\transforms-2\\files-2.1\\5a8f0b9b44f180fb011fc8293c706035\\res\\values-is\\values-is.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1916",
                         "endColumns": "100",
                         "endOffsets": "2012"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rodol\\.gradle\\caches\\transforms-2\\files-2.1\\504140572292dd72006cd1c92e5ef597\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,205,302,414,499,600,714,794,874,955,1065,1173,1271,1380,1479,1582,1737,1835",
+                        "endColumns": "99,96,111,84,100,113,79,79,80,109,107,97,108,98,102,154,97,80",
+                        "endOffsets": "200,297,409,494,595,709,789,869,950,1060,1168,1266,1375,1474,1577,1732,1830,1911"
                     }
                 }
             ]
