@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dettorre.rodolfo.convertidor" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="22"
+6-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml
+8
+9    <application
+9-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:5:5-17:19
+10        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+10-->[androidx.core:core:1.1.0] C:\Users\Rodolfo\.gradle\caches\transforms-2\files-2.1\da95e0dd41fd0c634661df2a0f122634\core-1.1.0\AndroidManifest.xml:24:18-86
+11        android:debuggable="true"
+12        android:icon="@drawable/icon"
+12-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:5:18-47
+13        android:label="@string/app_name"
+13-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:5:48-80
+14        android:testOnly="true"
+15        android:theme="@style/Theme.AppCompat.Light" >
+15-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:5:81-125
+16        <activity
+16-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:7:9-15:20
+17            android:name="dettorre.rodolfo.convertidor.ConvertidorActivity"
+17-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:7:19-55
+18            android:label="@string/app_name"
+18-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:8:19-51
+19            android:screenOrientation="fullSensor" >
+19-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:9:19-57
+20            <intent-filter>
+20-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:10:13-14:29
+21                <action android:name="android.intent.action.MAIN" />
+21-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:11:17-69
+21-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:11:25-66
+22
+23                <category android:name="android.intent.category.LAUNCHER" />
+23-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:13:17-77
+23-->C:\jee\adt\convertidor\app\src\main\AndroidManifest.xml:13:27-74
+24            </intent-filter>
+25        </activity>
+26    </application>
+27
+28</manifest>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\jee\\adt\\convertidor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon.png.flat",
+        "source": "C:\\jee\\adt\\convertidor\\app\\src\\main\\res\\drawable-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\jee\\adt\\convertidor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "C:\\jee\\adt\\convertidor\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\jee\\adt\\convertidor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "C:\\jee\\adt\\convertidor\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\jee\\adt\\convertidor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
+        "source": "C:\\jee\\adt\\convertidor\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\jee\\adt\\convertidor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icon.png.flat",
+        "source": "C:\\jee\\adt\\convertidor\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\jee\\adt\\convertidor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_buttonshape.xml.flat",
+        "source": "C:\\jee\\adt\\convertidor\\app\\src\\main\\res\\drawable-xhdpi\\buttonshape.xml"
+    },
+    {
+        "merged": "C:\\jee\\adt\\convertidor\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\jee\\adt\\convertidor\\app\\src\\main\\res\\layout\\main.xml"
+    }
+]
