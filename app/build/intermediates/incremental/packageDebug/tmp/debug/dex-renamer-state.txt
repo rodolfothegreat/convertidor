@@ -1,7 +1,7 @@
-#Fri Apr 10 16:43:29 AEST 2020
-base.0=C\:\\jee\\adt\\convertidor\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Sat Feb 26 17:36:32 GMT+10:00 2022
+base.1=C\:\\Users\\rodol\\AndroidStudioProjects\\convertidor\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 path.1=classes.dex
+base.0=C\:\\Users\\rodol\\AndroidStudioProjects\\convertidor\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 renamed.1=classes2.dex
-path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\jee\\adt\\convertidor\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+path.0=classes.dex
