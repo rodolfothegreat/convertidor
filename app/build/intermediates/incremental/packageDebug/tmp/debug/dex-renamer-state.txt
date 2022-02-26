@@ -1,4 +1,4 @@
-#Sat Feb 26 17:36:32 GMT+10:00 2022
+#Sat Feb 26 18:36:05 GMT+10:00 2022
 base.1=C\:\\Users\\rodol\\AndroidStudioProjects\\convertidor\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 path.1=classes.dex
 base.0=C\:\\Users\\rodol\\AndroidStudioProjects\\convertidor\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex

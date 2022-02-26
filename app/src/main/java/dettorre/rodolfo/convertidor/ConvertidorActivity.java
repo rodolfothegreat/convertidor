@@ -54,9 +54,9 @@ implements OnClickListener , OnItemSelectedListener{
     	
     	
     	String[] DistanceUnits = new String[] {"meter (m)", "centimeter (cm)", "millimeter (mm)",
-    			"kilometer (Km)", "mile (mi)", "nautical mile (M)", "yard (yd)", "foot (ft)", "inch (in)"};
+    			"kilometer (Km)", "mile (mi)", "nautical mile (M)", "yard (yd)", "foot (ft)", "Span", "inch (in)"};
     	
-    	double[] DistanceValues = new double[] {100, 1, 0.1, 100000, 160934.4, 185200, 91.44, 30.48, 2.54};  
+    	double[] DistanceValues = new double[] {100, 1, 0.1, 100000, 160934.4, 185200, 91.44, 30.48, 22.86, 2.54};
     	
     	String[] WeightUnits = new String[] {"gram (g)", "milligram (mg)", "kilogram (kg)", "tonne", 
     				"pound", "ounce", "stone"};
