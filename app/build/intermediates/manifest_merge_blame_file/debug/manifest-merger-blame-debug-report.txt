@@ -7,40 +7,64 @@
 7    <uses-sdk
 8        android:minSdkVersion="22"
 8-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="29" />
+9        android:targetSdkVersion="32" />
 9-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:7:5-17:19
+11-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:6:5-17:19
 12        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-12-->[androidx.core:core:1.1.0] C:\Users\rodol\.gradle\caches\transforms-3\f73238b31a4c75c00367edbd1f0b7325\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+12-->[androidx.core:core:1.8.0] C:\Users\rodol\.gradle\caches\transforms-3\f8ca33f57cc610a0b1ed31d0cc4084bb\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 13        android:debuggable="true"
 14        android:icon="@drawable/icon"
-14-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:7:18-47
+14-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:6:18-47
 15        android:label="@string/app_name"
-15-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:7:48-80
+15-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:6:48-80
 16        android:testOnly="true"
 17        android:theme="@style/Theme.AppCompat.Light" >
-17-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:7:81-125
+17-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:6:81-125
 18        <activity
-18-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:8:9-15:20
+18-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:7:9-15:20
 19            android:name="dettorre.rodolfo.convertidor.ConvertidorActivity"
-19-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:8:19-54
-20            android:label="@string/app_name"
-20-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:9:19-51
-21            android:screenOrientation="fullSensor" >
-21-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:10:19-57
-22            <intent-filter>
-22-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:11:13-14:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:12:17-69
-23-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:12:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:13:17-77
-25-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:13:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
+19-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:7:19-54
+20            android:exported="true"
+20-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:10:19-42
+21            android:label="@string/app_name"
+21-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:8:19-51
+22            android:screenOrientation="fullSensor" >
+22-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:9:19-57
+23            <intent-filter>
+23-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:11:13-14:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:12:17-69
+24-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:12:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:13:17-77
+26-->C:\Users\rodol\AndroidStudioProjects\convertidor\app\src\main\AndroidManifest.xml:13:27-74
+27            </intent-filter>
+28        </activity>
 29
-30</manifest>
+30        <provider
+30-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rodol\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+31            android:name="androidx.startup.InitializationProvider"
+31-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rodol\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+32            android:authorities="dettorre.rodolfo.convertidor.androidx-startup"
+32-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rodol\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+33            android:exported="false" >
+33-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rodol\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+34            <meta-data
+34-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rodol\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+35                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rodol\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+36                android:value="androidx.startup" />
+36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rodol\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+37            <meta-data
+37-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rodol\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+38                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+38-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rodol\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+39                android:value="androidx.startup" />
+39-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rodol\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+40        </provider>
+41    </application>
+42
+43</manifest>

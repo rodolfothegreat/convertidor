@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "dettorre.rodolfo.convertidor.app-merged_res-21:/drawable-xhdpi_buttonshape.xml.flat",
+        "source": "dettorre.rodolfo.convertidor.app-main-23:/drawable-xhdpi/buttonshape.xml"
+    },
+    {
+        "merged": "dettorre.rodolfo.convertidor.app-merged_res-21:/drawable-xxhdpi_icon.png.flat",
+        "source": "dettorre.rodolfo.convertidor.app-main-23:/drawable-xxhdpi/icon.png"
+    },
+    {
+        "merged": "dettorre.rodolfo.convertidor.app-merged_res-21:/drawable-ldpi_icon.png.flat",
+        "source": "dettorre.rodolfo.convertidor.app-main-23:/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "dettorre.rodolfo.convertidor.app-merged_res-21:/drawable-hdpi_icon.png.flat",
+        "source": "dettorre.rodolfo.convertidor.app-main-23:/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "dettorre.rodolfo.convertidor.app-merged_res-21:/drawable-xhdpi_icon.png.flat",
+        "source": "dettorre.rodolfo.convertidor.app-main-23:/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "dettorre.rodolfo.convertidor.app-merged_res-21:/drawable-mdpi_icon.png.flat",
+        "source": "dettorre.rodolfo.convertidor.app-main-23:/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "dettorre.rodolfo.convertidor.app-merged_res-21:/layout_main.xml.flat",
+        "source": "dettorre.rodolfo.convertidor.app-main-23:/layout/main.xml"
+    }
+]
